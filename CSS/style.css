@@ -24,24 +24,20 @@ header .logo {
   font-size: 1.5rem;
   font-weight: 600;
 }
-
 header nav {
   display: flex;
   gap: 20px;
 }
-
 header nav a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
 }
-
 .nav-menu-icon{
   font-size: 2.5rem;
   cursor: pointer;
   display: none;
 }
-
 header .cta {
   padding: 7px 21px;
   border: 1.5px solid #b8b6b6;
@@ -62,22 +58,18 @@ header .cta {
   max-width: 50%;
   flex: 1 1 40%;
 }
-
 .hero .content {
   flex: 1 1 50%;
   padding: 20px;
 }
-
 .hero .content h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
-
 .hero .content p {
   margin-bottom: 20px;
   font-size: 1rem;
 }
-
 .hero .content form {
   display: flex;
   align-items: center;
@@ -86,7 +78,6 @@ header .cta {
   padding: 10px 20px;
   width: 100%;
 }
-
 .hero .content form input {
   border: none;
   background: none;
@@ -94,7 +85,6 @@ header .cta {
   padding: 10px 20px;
   flex: 1;
 }
-
 .hero .content form button {
   background-color: #22c55e;
   color: rgb(255, 255, 255);
@@ -107,19 +97,16 @@ header .cta {
   max-width: 1440px;
   margin: 0 auto
 }
-
 .stats-section h2 {
   margin-bottom: 20px;
   font-size: 2rem;
 }
-
 .stats-section .stats {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .stats-section .stats .stat {
   flex: 1 1 200px;
   background-color: #f9fafb;
@@ -127,12 +114,10 @@ header .cta {
   border-radius: 10px;
   text-align: center;
 }
-
 .stats-section .stats .stat h3 {
   font-size: 2rem;
   margin-bottom: 10px;
 }
-
 .stats-section img {
   width: 100%;
   max-width: 1440px;
@@ -146,19 +131,16 @@ header .cta {
   max-width: 1440px;
   margin: 0 auto
 }
-
 .features-section h2 {
   margin-bottom: 20px;
   font-size: 2rem;
 }
-
 .features-section .features {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
-
 .features-section .features .feature {
   display: flex;
   flex-wrap: wrap;
@@ -167,23 +149,19 @@ header .cta {
   text-align: left;
   padding: 20px;
 }
-
 .text {
   flex: 1;
   min-width: 300px;
 }
-
 .text h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
-
 .text p {
   margin-bottom: 20px;
   font-size: 1rem;
   color: #555;
 }
-
 .text button {
   background-color: #4caf50;
   color: white;
@@ -193,12 +171,10 @@ header .cta {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .image {
   flex: 1;
   min-width: 300px;
 }
-
 .image img {
   width: 100%;
   border-radius: 8px;
@@ -208,32 +184,26 @@ header .cta {
   max-width: 1440px;
   margin: 0 auto
 }
-
 .team-section h2 {
   margin-bottom: 20px;
   font-size: 2rem;
   text-align: center;
-
 }
-
 .team-section p {
   color: #9b9a9a;
   margin-top: 0.4rem;
   font-size: .9rem;
   line-height: normal;
 }
-
 .team-section .team {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
-
 .team-section .team .member {
   flex: 1 1 200px;
 }
-
 .team-section .team .member img {
   width: 100%;
   margin-bottom: 10px;
@@ -243,7 +213,6 @@ footer {
   color: #ffffff;
   padding: 40px;
 }
-
 footer .footer-grid {
   display: flex;
   flex-wrap: wrap;
@@ -252,11 +221,9 @@ footer .footer-grid {
   text-align: left;
   margin-top: 1.5rem;
 }
-
 footer .footer-grid .footer-column {
   flex: 1 1 100px;
 }
-
 footer p {
   margin-top: 20px;
   font-size: .9rem;
@@ -268,48 +235,38 @@ footer p {
     align-items: center;
     text-align: center;
   }
-  
   .features-section .features {
     flex-direction: column;
   }
 }
-
 @media (max-width: 768px) {
   .nav-menu-icon{
     display: block;
   }
-
   header nav {
     display: none;
   }
-
   header .cta {
     display: none;
   }
-
   header nav {
     flex-direction: column;
     gap: 10px;
   }
-
   .hero {
     padding: 20px;
   }
-
   .stats-section, .features-section, .team-section {
     padding: 20px;
   }
-
   footer {
     padding: 20px;
   }
 }
-
 @media (max-width: 480px) {
   .nav-menu-icon{
     display: block;
   }
-
   header nav {
     display: none;
   }
