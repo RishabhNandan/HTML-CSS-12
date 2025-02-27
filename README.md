@@ -13,7 +13,7 @@ The primary objective of this project is to build a business landing page that:
 - Conveys a professional brand image.
 - Connects businesses with their target audience effectively.
 - Encourages user engagement through well-placed call-to-action buttons.
-- Provides a modern and clean user interface.
+- Provides a modern and clean user interface. 
 # Key Features
 1.Responsive Design:
 - Adapts to all screen sizes including desktops, tablets, and mobiles.
